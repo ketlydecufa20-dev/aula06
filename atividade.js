@@ -110,14 +110,81 @@
 
 //10.Uma loja online oferece frete grátis se o valorCompra foi maior que $100 ou se o cliente for membroVIP. No entanto, o frete frátis não se aplica se a entrega for para zonaRura. Crie o programa que retorne se o cliente tem direito ao frete grátis
 
-var valorCompra = 101
-var menbroVIP = true
-var zonaRural = true
+// var valorCompra = 100
+// var menbroVIP = true
+// var zonaRural = true
 
-if(valorCompra >100 && membroVIP == true || !zonaRural){
-    console.log("o frete grátis não se aplica");
+// if(valorCompra > 100 && (!(membroVIP)) || (!(zonaRural))){
+//     console.log("o cliente tem direito ao frete grátis");
     
-} else{
-    console.log("não tem frete");
+// } else{
+//     console.log("o frete grátis não se aplica");
     
-}
+// }
+
+//11. Crie um programa que receba a temperatura atual e uma informação se está chovendo ou não (true ou false) . 
+
+// var temperatura = 16
+// var oClimaHojeEstaChuvoso = true
+
+// if (temperatura < 15 || oClimaHojeEstaChuvoso == true ) {
+//     console.log("Leve um casaco");
+    
+// } else {
+//     console.log("Vestuário livre");
+    
+// }
+
+//12. Um clube só permite o uso da poscina se o sócio estiver vestindo traje adequado (tru/ false) e estiver com o exame médico em dia (true/false). Crie um programa que reveba essas duas informações e exiba se a entreda na poscina est[a permitida ou negada
+
+// var oTrajeEstaAdequado = false
+// var oExameMedicoEstaEmDia = true
+
+// if (oTrajeEstaAdequado == true && oExameMedicoEstaEmDia == true ) {
+//     console.log("Entrada na piscina está permitida");
+    
+// }else {
+//     console.log("Entrada Negada!");
+    
+// }
+
+//13. Uma loja funciona apenas de segunda a sexta-feira, no horário das 8:00 ás 18:00. Crie um programa que receba o dia da semana e a hora atual (número inteiro) e informe se a loja está averta ou fechada
+
+// var dia = "segunda"
+// var horario = 8
+
+// if (dia == "segunda" && horario == 8) {
+//     console.log("Loja está aberta");
+    
+// } else {
+//  console.log("Loja está fechada");
+ 
+//  } 
+
+ //14. Um site exige que, para enviar um cadastro, o campo de e-mail não esteja vazio (diferente de "") e que usuário tenha marcado a opção de aceitar os termos de serviço (true). Crie uma função que receba o e-mail e a confirmação dos termos e retorne se o formulário é válido para envio.
+//!= : valida tudo o que está escrito dentro das ""
+// var email = "ketly@gmail.com"
+// var usuarioAceitaOsTermos = true
+
+// if ( email != "" && usuarioAceitaOsTermos == true) {
+//     console.log("Formulário é valido para envio");
+    
+// } else {
+//     console.log("Formulário não é valido");
+    
+// }
+
+//15. Um shopping possui vagas resevadas. O motorista tem direto a estacionar nessa vaa se tiver 60 anos ou mais ou se possuir a credencial PNE ( Pessoa com Necessidade Especial). No entanto, existe uma regra geral do local: nenhum tipo de caminhão pode estacionar nessas vagas, independentemente da consição do motorista. Crie um programa que receba a idade do motorista, se ele possui a credencial (true/false) e o tipo de veículo, informado se a parada na vaga é permitida
+
+// var veiculo = "carro"
+// var idade = 60
+// var possuiCredencialPne = true
+
+// if ( idade >= 60 && possuiCredencialPne == true && veiculo == "carro" ){
+//     console.log("Parada Permitida");
+    
+// } else {
+//     console.log("Parada Negada");
+    
+// }
+    
